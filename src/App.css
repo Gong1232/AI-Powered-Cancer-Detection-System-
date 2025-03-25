@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #282c34;
+}
+
+nav {
+  background-color: #282c34;
+  padding: 15px;
+  position: fixed; /* Keeps nav fixed at top */
+  top: 0;
+  left: 0; /* Positions at top left */
+  width: 100%;
+  z-index: 1000;
+  display: flex; /* Aligns links horizontally */
+  justify-content: flex-start; /* Aligns items to the left */
+}
+
+nav a {
+  color: white;
+  margin: 0 15px 0 0; /* Right margin only between links */
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:first-child {
+  margin-left: 20px; /* Extra left margin for first item */
+}
+
+nav a:hover {
+  background-color: #3a3f4b;
+  text-decoration: none;
+}
+
+.page {
+  padding: 20px;
+  color: white;
+}
+
+.dashboard {
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 8px;
+  background-color: #282c34;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.upload-section {
+  margin: 20px 0;
+}
+
+.results-section {
+  margin-top: 20px;
+}
+
+.notification {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffeb3b;
+  color: #000;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+/*home page*/
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  padding: 20px;
+  border: 2px solid #61dafb;
+  border-radius: 10px;
+  background-color: #20232a;
+}
+
+.home button{
+  margin: 20px;
+}
+
+.home {
+  text-align: center;
+  color: white;
+  border: 2px solid #61dafb;
+  border-radius: 10px 10px 10px 10px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  background-color: #20232a;
+}

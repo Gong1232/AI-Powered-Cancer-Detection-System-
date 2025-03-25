@@ -1,0 +1,45 @@
+.dashboard {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #61dafb;
+    border-radius: 8px;
+    background-color: #282c34;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .history-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #646060;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .history-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-section li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .history-section p {
+    margin: 5px 0;
+  }
+  
+  .history-section strong {
+    color: #282c34;
+  }
